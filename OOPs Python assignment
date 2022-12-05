@@ -1,0 +1,141 @@
+## Python OOP Assignment
+Q1. What is the purpose of Python's OOP?
+
+ANS : OOP means Object Oriented Prohramming where we can define object and classes. OPPs concepts generally used when we write some code for real world entities.
+
+Q2. Where does an inheritance search look for an attribute
+
+Ans : Inheritance search for an attribute first in the instance object then in the class the instance was created from.
+
+Q3. How do you distinguish between a class object and an instance object?
+
+Ans : Class is a template where we can define object but object is an instance of a class.
+
+Q4. What makes the first argument in a class’s method function special?
+
+Ans : In a class's method function the first argument is object itself (self).
+
+Q5. What is the purpose of the __init__ method?
+
+Ans : __init__ is a constructor method where we can initialize the object's attribute.
+
+Q6. What is the process for creating a class instance?
+
+Ans : To create a class instance just call the class with arguments accepted by constructor.
+
+Q7. What is the process for creating a class?
+
+Ans : We can create a class by using the keyword class followed by class name.(ex : class Myclass:)
+
+Q8. How would you define the superclasses of a class?
+
+Ans : The class from which class inherits is calles a superclasses and the class which inherits is called as subclass.
+
+Q9. What is the relationship between classes and modules?
+
+Ans : Modules are collection of methods they cannot generate instance but class may generate instance.
+
+Q10. How do you make instances and classes?
+
+Ans : To create a class we can used syntax class "class_name" and to create a instance of a class just call the class with its arguments.
+
+Q11. Where and how should be class attributes created?
+
+Ans : class attributes are attributes owned by class itself. we can create a class attribute by defining it outside of __init__ .
+
+Q12. Where and how are instance attributes created?
+
+Ans : Instance attributes are created in __init__ method.
+
+Q13.  What does the term "self" in a Python class mean?
+
+Ans : self in Python class reference to the current instance of the class.
+
+Q14. How does a Python class handle operator overloading?
+
+Ans : Operator overloading means we can change the meaning of operator depending upon the operand we used.
+
+Q15. When do you consider allowing operator overloading of your classes?
+
+ANs : We consider allowing operator overloading when we provide extended meaning operator which can handle different user input.
+
+Q16. What is the most popular form of operator overloading?
+
+Q17. What are the two most important concepts to grasp in order to comprehend Python OOP code?
+
+Ans : Inheritance and Polymerphism
+
+Q18. Describe three applications for exception processing.
+
+Q19. What happens if you don't do something extra to treat an exception?
+
+Ans : If we donot do extra to handle an exception then it will terminate the program when the script will not handle the exception.
+
+Q20. What are your options for recovering from an exception in your script?
+
+Ans : We can provide a generic clause in the except section and write the code in else block then the try section will execute successfully and else block is a good place
+	  to write the code that does not need to try.
+	  
+Q21. Describe two methods for triggering exceptions in your script.
+
+Ans : Try : this method catches the exception raised by the program
+	  Except : this method raises the exception
+
+Q22. Identify two methods for specifying actions to be executed at termination time, regardless of
+whether or not an exception exists.
+
+Ans : finally and else
+
+Q23. What is the purpose of the try statement?
+
+ANs : Try : it will provide a block where we can write code to be tested for error while it is being executed.
+
+Q24. What are the two most popular try statement variations?
+
+Ans : else and finally
+
+Q25. What is the purpose of the raise statement?
+
+Ans : raise keyword is used to raise an exception.
+
+Q26. What does the assert statement do, and what other statement is it like?
+
+Ans : assert keyword is used to check wheather condition of code block return true if not then it wiil raise an error as AssertionError.
+
+Q27. What is the purpose of the with/as argument, and what other statement is it like?
+
+ANs : with/as argument is used in exception handling to make the code cleaner and much more readable.
+
+Q28. What are *args, **kwargs?
+
+Ans : *args is used to pass multiple argument and **kwargs is used pass key value as an arguments. 
+
+Q29. How can I pass optional or keyword parameters from one function to another?
+
+Ans : We can pass optional or keyword parameters by assigning some value to it in the argument section.
+
+Q30. What are Lambda Functions?
+
+Ans : Lambda Functions is an anonymous funtion means that the function is without a name.
+
+Q31. Explain Inheritance in Python with an example?
+
+Ans : Inheritance means one class inherits from other classes as a derived or subclass. for example: A base class is animal and lion is the derived class.
+
+Q32. Suppose class C inherits from classes A and B as class C(A,B).Classes A and B both have their own versions of method func(). 
+	 If we call func() from an object of class C, which version gets invoked?
+	 
+Ans : it will invoke both A and B.
+
+Q33. Which methods/functions do we use to determine the type of instance and inheritance?
+
+Ans :  isinstance() and issubclass()
+
+Q34.Explain the use of the 'nonlocal' keyword in Python.
+
+Ans : The nonlocal keyword is used to work with the variables inside the nested function where the variable should not belong to the inner function.
+
+Q35. What is the global keyword?
+
+Ans : Global keyword allows to modify the variable outside of the current scope.
+
